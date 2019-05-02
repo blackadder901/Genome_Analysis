@@ -12,7 +12,7 @@ module load bioinfo-tools
 module load megahit
 
 megahit -1 SRR4342133_1.paired.trimmed.fastq.gz -2 SRR4342133_2.paired.trimmed.fastq.gz -o\
-/home/georg/genome_analysis/analyses/assembly/DNA/assembly_results_2133
+/home/georg/genome_analysis/analyses/assembly_megahit_results/DNA/assembly_results_2133
 
 megahit -1 SRR4342129_1.paired.trimmed.fastq.gz -2 SRR4342129_2.paired.trimmed.fastq.gz -o\
-/home/georg/genome_analysis/analyses/assembly/DNA/assembly_results_2129
+/home/georg/genome_analysis/analyses/assembly_megahit_results/DNA/assembly_results_2129
