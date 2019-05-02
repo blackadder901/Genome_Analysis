@@ -1,0 +1,16 @@
+#!/bin/bash -l
+
+#SBATCH -A g2019003
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 15:00:00
+#SBATCH -J quast_run
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user g_nikiforos@hotmail.com
+
+module load bioinfo-tools
+module load quast
+
+metaquast.py -o /home/georg/genome_analysis/analyses/assembly_evaluation_quast_results/2133 /home/georg/genome_analysis/analyses/assembly_results/DNA/assembly_results_2133/final.contigs.fa -1 SRR4342133_1.paired.trimmed.fastq.gz -2 SRR4342133_2.paired.trimmed.fastq.gz
+
+metaquast.py -o /home/georg/genome_analysis/analyses/assembly_evaluation_quast_results/2129 /home/georg/genome_analysis/analyses/assembly_results/DNA/assembly_results_2129/final.contigs.fa -1 SRR4342129_1.paired.trimmed.fastq.gz -2 SRR4342129_2.paired.trimmed.fastq.gz
