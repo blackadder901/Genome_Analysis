@@ -1,0 +1,7 @@
+dir=/home/georg/genome_analysis/analyses/trimmomatic_results/RNA/RNA_untrimmed
+out_dir=/home/georg/genome_analysis/analyses/trimmomatic_results/RNA/RNA_trim_resutls
+
+
+java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE $dir/SRR4342139.1.fastq.gz $dir/SRR4342139.2.fastq.gz $out_dir/SRR4342139.1FP.fastq.gz \
+$out_dir/SRR4342139.1FU.fastq.gz $out_dir/SRR4342139.2FP.fastq.gz $out_dir/SRR4342139.2UP.fastq.gz \
+HEADCROP:15 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
