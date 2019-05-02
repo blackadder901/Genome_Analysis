@@ -1,0 +1,39 @@
+#!/bin/bash -l
+
+#SBATCH -A g2019003
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -t 05:00:00
+#SBATCH -J prokka_run
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user g_nikiforos@hotmail.com
+
+module load bioinfo-tools
+module load prokka/1.12-12547ca
+
+//2133 bins
+
+for bin in 2133_4.fa 2133_16.fa 2133_23.fa 2133_20.fa 2133_21.fa 2133_3.fa 2133_6.fa 2133_25.fa 2133_12.fa 2133_31.fa 2133_14.fa 2133_11.fa \
+2133_30.fa 2133_7.fa 2133_32.fa 2133_5.fa 2133_18.fa 2133_9.fa 2133_19.fa 2133_24.fa 2133_28.fa 2133_1.fa 2133_8.fa 2133_22.fa 2133_15.fa 2133_10.fa
+do prokka  $bin --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results_2133/bacteria --prefix $bin
+done;
+
+
+for bin in 2133_2.fa 2133_29.fa 2133_27.fa 2133_17.fa 2133_26.fa 2133_13.fa
+do prokka --kingdom Archaea  $bin --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results_2133/archaea --prefix $bin
+done;
+
+//2129 bins
+
+for bin in 2129_22.fa 2129_1.fa 2129_2.fa 2129_6.fa 2129_14.fa 2129_11.fa 2129_17.fa 2129_26.fa 2129_15.fa 2129_8.fa 2129_12.fa 2129_24.fa \
+2129_9.fa 2129_13.fa 2129_4.fa 2129_20.fa 2129_19.fa 2129_16.fa 2129_10.fa
+do prokka  $bin --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results_2129/bacteria --prefix $bin
+done;
+
+
+for bin in 2129_21.fa 2129_25.fa 2129_18.fa 2129_3.fa 2129_8.fa 2129_23.fa 2129_5.fa 2129_7.fa
+do prokka --kingdom Archaea  $bin --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results_2129/archaea --prefix $bin
+done;
+
+
+
