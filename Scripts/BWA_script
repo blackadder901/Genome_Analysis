@@ -22,6 +22,4 @@ bwa mem -t 2 /home/georg/genome_analysis/analyses/mapping_bwa_results/bins_and_i
 
 
 
-
-
-//Apply this command for all files in the folder /home/georg/genome_analysis/analyses/mapping_bwa_results/bins_and_index
+'''Apply this command for all files in the folder /home/georg/genome_analysis/analyses/mapping_bwa_results/bins_and_index'''
