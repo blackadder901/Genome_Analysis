@@ -2,7 +2,7 @@
 
 #SBATCH -A g2019003
 #SBATCH -p core
-#SBATCH -n 2
+#SBATCH -n 8
 #SBATCH -t 15:00:00
 #SBATCH -J assembly_run
 #SBATCH --mail-type=ALL
@@ -11,8 +11,7 @@
 module load bioinfo-tools
 module load megahit
 
-megahit -1 SRR4342133_1.paired.trimmed.fastq.gz -2 SRR4342133_2.paired.trimmed.fastq.gz -o\
-/home/georg/genome_analysis/analyses/assembly_megahit_results/DNA/assembly_results_2133
 
-megahit -1 SRR4342129_1.paired.trimmed.fastq.gz -2 SRR4342129_2.paired.trimmed.fastq.gz -o\
-/home/georg/genome_analysis/analyses/assembly_megahit_results/DNA/assembly_results_2129
+megahit --kmin-1pass -t 8 -1 SRR4342129_1.paired.trimmed.fastq.gz,SRR4342133_1.paired.trimmed.fastq.gz\
+ -2 SRR4342129_2.paired.trimmed.fastq.gz,SRR4342133_1.paired.trimmed.fastq.gz\
+ -o /home/georg/genome_analysis/analyses/assembly_megahit_results/results
