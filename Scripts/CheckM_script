@@ -11,8 +11,6 @@
 module load bioinfo-tools
 module load CheckM/1.0.12
 
-checkm lineage_wf -t 5 -x fa --reduced_tree /home/georg/genome_analysis/analyses/binning_metabat_results/results_metabat_2133 /home/georg/genome_analysis/analyses/binning_evaluation_checkm_results/binning_evaluation_2133_results
-
-checkm lineage_wf -t 5 -x fa --reduced_tree /home/georg/genome_analysis/analyses/binning_metabat_results/results_metabat_2129 /home/georg/genome_analysis/analyses/binning_evaluation_checkm_results/binning_evaluation_2129_results
-
+checkm lineage_wf -t 5 -x fa --reduced_tree /home/georg/genome_analysis/analyses/bining_metabat_results/results\
+ /home/georg/genome_analysis/analyses/bining_evaluation_checkm_results/results
 
