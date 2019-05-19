@@ -11,29 +11,43 @@
 module load bioinfo-tools
 module load prokka/1.12-12547ca
 
-//2133 bins
+prokka bin_9.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_9
+prokka bin_22.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_22
+prokka bin_3.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_3
+prokka bin_5.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_5
+prokka bin_23.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_23
+prokka bin_29.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_29
+prokka bin_4.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_4
+prokka bin_12.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_12
+prokka bin_21.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_21
+prokka bin_35.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_35
+prokka bin_26.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_26
+prokka bin_25.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_25
+prokka bin_6.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_6
+prokka bin_14.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_14
+prokka bin_30.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_30
+prokka bin_13.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_13
+prokka bin_16.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_16
+prokka bin_20.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_20
+prokka bin_2.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_2
+prokka bin_38.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_38
+prokka bin_34.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_34
+prokka bin_31.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_31
+prokka bin_39.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_39
+prokka bin_7.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_7
+prokka bin_36.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_36
+prokka bin_8.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_8
+prokka bin_15.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_15
+prokka bin_17.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_17
+prokka bin_1.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_1
+prokka bin_24.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_24
+prokka bin_11.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_11
+prokka bin_28.fa --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/bacteria/bin_28
 
-for bin in 2133_4.fa 2133_16.fa 2133_23.fa 2133_20.fa 2133_21.fa 2133_3.fa 2133_6.fa 2133_25.fa 2133_12.fa 2133_31.fa 2133_14.fa 2133_11.fa \
-2133_30.fa 2133_7.fa 2133_32.fa 2133_5.fa 2133_18.fa 2133_9.fa 2133_19.fa 2133_24.fa 2133_28.fa 2133_1.fa 2133_8.fa 2133_22.fa 2133_15.fa 2133_10.fa
-do prokka  $bin --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results_2133/bacteria --prefix $bin
-done;
-
-
-for bin in 2133_2.fa 2133_29.fa 2133_27.fa 2133_17.fa 2133_26.fa 2133_13.fa
-do prokka --kingdom Archaea  $bin --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results_2133/archaea --prefix $bin
-done;
-
-//2129 bins
-
-for bin in 2129_22.fa 2129_1.fa 2129_2.fa 2129_6.fa 2129_14.fa 2129_11.fa 2129_17.fa 2129_26.fa 2129_15.fa 2129_8.fa 2129_12.fa 2129_24.fa \
-2129_9.fa 2129_13.fa 2129_4.fa 2129_20.fa 2129_19.fa 2129_16.fa 2129_10.fa
-do prokka  $bin --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results_2129/bacteria --prefix $bin
-done;
-
-
-for bin in 2129_21.fa 2129_25.fa 2129_18.fa 2129_3.fa 2129_8.fa 2129_23.fa 2129_5.fa 2129_7.fa
-do prokka --kingdom Archaea  $bin --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results_2129/archaea --prefix $bin
-done;
-
+prokka bin_37.fa --kingdom Archaea --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/archaea/bin_37
+prokka bin_19.fa --kingdom Archaea --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/archaea/bin_19
+prokka bin_33.fa --kingdom Archaea --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/archaea/bin_33
+prokka bin_18.fa --kingdom Archaea --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/archaea/bin_18
+prokka bin_32.fa --kingdom Archaea --outdir /home/georg/genome_analysis/analyses/annotation_prokka_results/results/archaea/bin_32
 
 
