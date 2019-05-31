@@ -1,0 +1,14 @@
+bbin_1	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_6	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_7	d__Bacteria.p__Proteobacteria.c__Alphaproteobacteria.o__Rhodobacterales.f__Rhodobacteraceae.g__?.s__?.t__?
+bbin_4	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_5	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_8	d__Bacteria.p__Proteobacteria.c__Alphaproteobacteria.o__Rhodobacterales.f__Rhodobacteraceae.g__?.s__?.t__?
+bbin_20	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_10	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_16	d__Bacteria.p__Proteobacteria.c__Alphaproteobacteria.o__Rhodobacterales.f__Rhodobacteraceae.g__?.s__?.t__?
+bbin_25	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_24	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_21	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_34	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_35	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?

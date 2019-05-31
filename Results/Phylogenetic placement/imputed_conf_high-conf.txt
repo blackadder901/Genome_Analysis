@@ -1,0 +1,10 @@
+bbin_2	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+bbin_26	d__Bacteria.p__Verrucomicrobia.c__Verrucomicrobiae.o__Verrucomicrobiales.f__?.g__?.s__?.t__?
+bbin_12	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Planctomycetales.f__Planctomycetaceae.g__Planctomyces.s__?.t__?
+bbin_13	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+bbin_14	d__Bacteria.p__Verrucomicrobia.c__Verrucomicrobiae.o__Verrucomicrobiales.f__?.g__?.s__?.t__?
+bbin_15	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+bbin_17	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+bbin_28	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+bbin_23	d__Bacteria.p__Verrucomicrobia.c__Verrucomicrobiae.o__Verrucomicrobiales.f__?.g__?.s__?.t__?
+bbin_36	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
